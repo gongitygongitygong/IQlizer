@@ -9,10 +9,10 @@ If that happens, pausing and replaying the audio usually fixes it.
 This project exists because system-wide equalisers are either bloated, locked behind paid software, or just annoying to configure.
 
 
-IQlizer aims to be as lightweight, straightforward, easy to use, and most importamt of all, free.
+IQlizer aims to be as lightweight, straightforward, easy to use, and most importantly, free.
 
 
-IQQlizer features System-level audio equalisation, works alongside Spotify playback, has a simple interface with adjustable frequency bands with a native backend written in C++
+IQlizer features System-level audio equalisation, works alongside Spotify playback, has a simple interface with adjustable frequency bands with a native backend written in C++
 
 
 
@@ -40,6 +40,10 @@ If the EQ doesn’t apply immediately, pause and resume playback.
 
 
 **Known issues**
+
+Does not work woth YouTube most of the time as YouTube uses their own audio codec. Spotify is strongly recommended.
+
+If the app keeps stopping, check that you have granted it the microphone permission.
 
 EQ may not apply instantly on some systems
 
