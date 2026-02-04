@@ -43,7 +43,7 @@ If the EQ doesn’t apply immediately, pause and resume playback.
 
 Does not work woth YouTube most of the time as YouTube uses their own audio codec. Spotify is strongly recommended.
 
-If the app keeps stopping, check that you have granted it the microphone permission.
+If the app keeps stopping, check that you have granted it the microphone permission. This is because one of the libraries used auto adds the mic permission. IQlizer does not need the mic to function but requires the permission to be granted.
 
 EQ may not apply instantly on some systems
 
